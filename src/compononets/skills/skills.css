@@ -1,0 +1,15 @@
+h1,
+h2,
+h3,
+h4 {
+  font-family: "Montserrat", sans-serif;
+}
+#skills {
+  font-size: 65px;
+  color: #868e96;
+  margin-top: -15px;
+  scroll-behavior: smooth;
+}
+#skills:hover {
+  color: #645beb;
+}
