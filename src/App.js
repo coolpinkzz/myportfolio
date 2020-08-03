@@ -3,6 +3,7 @@ import Header from "./compononets/header/header";
 import Hero from "./compononets/hero/hero";
 import Skills from "./compononets/skills/skills";
 import Work from "./compononets/work/work";
+import Project from "./compononets/projects/projects";
 
 import "./App.css";
 
@@ -13,6 +14,7 @@ function App() {
       <Hero />
       <Skills />
       <Work />
+      <Project />
     </div>
   );
 }
