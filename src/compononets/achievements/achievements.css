@@ -1,0 +1,39 @@
+.ach {
+  margin: 10px 0px 10px 20px;
+  padding: 15px;
+  height: 510px;
+  overflow: hidden;
+  box-shadow: rgba(0, 0, 0, 0.2) 0px 10px 30px -15px;
+}
+.ach:hover {
+  box-shadow: rgba(0, 0, 0, 0.2) 0px 20px 30px -10px;
+}
+
+.cardbutton {
+  background-color: #55198b;
+  border: solid 1px #55198b;
+  color: white;
+  font-weight: 700;
+  width: max-content;
+  text-decoration: none;
+  padding: 9px 15px;
+  text-transform: uppercase;
+  border-radius: 6px;
+  text-align: center;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out 0s;
+}
+.cardbutton:hover {
+  text-decoration: none;
+  background-color: #ffffff;
+  color: black;
+  transition: all 0.3s ease 0s;
+  transform: translateY(-3px);
+}
+@media (max-width: 768px) {
+  .project {
+    margin: 10px;
+    padding: 10px;
+    height: auto;
+  }
+}

@@ -23,7 +23,10 @@ const Work = () => {
           <div className="row">
             <div className="col-12 col-sm-6 col-md-6">
               <Card
-                style={{ backgroundColor: "rgb(108, 99, 255)", height: "auto" }}
+                style={{
+                  backgroundColor: "rgb(108, 99, 255)",
+                  height: "350px",
+                }}
                 className="shadow my-5"
               >
                 <CardBody>
@@ -52,7 +55,7 @@ const Work = () => {
                 <div className="text-center">
                   <img
                     height="auto"
-                    width="25%"
+                    width="30%"
                     src="/img/work1.1.png"
                     alt="Card image cap"
                   />
@@ -68,7 +71,10 @@ const Work = () => {
             </div>
             <div className="col-12 col-sm-6 col-md-6">
               <Card
-                style={{ backgroundColor: "rgb(108, 99, 255)" }}
+                style={{
+                  height: "350px",
+                  backgroundColor: "rgb(108, 99, 255)",
+                }}
                 className="shadow my-5"
               >
                 <CardBody>

@@ -1,15 +1,11 @@
 import React, { Component } from "react";
 import "./projects.css";
-import { Container, Col, Row } from "reactstrap";
+import { Fade } from "react-reveal";
+import { Col, Row } from "reactstrap";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { Card, CardTitle, CardText, Button } from "reactstrap";
+import { Card, CardTitle, CardText } from "reactstrap";
 import { PROJECTS } from "../../shared/project";
-import {
-  faGithub,
-  faRProject,
-  faGgCircle,
-  faReact,
-} from "@fortawesome/free-brands-svg-icons";
+import { faGithub, faReact } from "@fortawesome/free-brands-svg-icons";
 
 class Project extends Component {
   constructor(props) {
@@ -60,8 +56,10 @@ class Project extends Component {
     });
     return (
       <div>
-        <h1 id="projects">Projects</h1>
-        <Row>{projectcard}</Row>
+        <Fade bottom duration={1000} distance="40px">
+          <h1 id="projects">Projects</h1>
+          <Row>{projectcard}</Row>
+        </Fade>
       </div>
     );
   }

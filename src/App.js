@@ -4,6 +4,7 @@ import Hero from "./compononets/hero/hero";
 import Skills from "./compononets/skills/skills";
 import Work from "./compononets/work/work";
 import Project from "./compononets/projects/projects";
+import Achievement from "./compononets/achievements/achievements";
 
 import "./App.css";
 
@@ -15,6 +16,7 @@ function App() {
       <Skills />
       <Work />
       <Project />
+      <Achievement />
     </div>
   );
 }
