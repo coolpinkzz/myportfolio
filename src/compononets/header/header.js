@@ -1,81 +1,110 @@
-import React, { useState } from "react";
-import "./header.css";
+import React from "react";
 import Headroom from "react-headroom";
+import "./header.css";
 import { Link, animateScroll as scroll } from "react-scroll";
-import {
-  Collapse,
-  Navbar,
-  NavbarToggler,
-  NavbarBrand,
-  Nav,
-  NavItem,
-  NavLink,
-} from "reactstrap";
 
-const Header = (props) => {
-  const [isOpen, setIsOpen] = useState(false);
-
-  const toggle = () => setIsOpen(!isOpen);
-
+function Header() {
   return (
-    <div>
-      <Headroom>
-        <Navbar className="shadow" color="light" light expand="md">
-          <NavbarBrand className="ml-5" href="/">
-            <h3> &lt; Coolpinkzz / &gt;</h3>
-          </NavbarBrand>
-          <NavbarToggler onClick={toggle} />
-          <Collapse isOpen={isOpen} navbar>
-            <Nav className="" navbar>
-              <NavItem>
-                <NavLink>
-                  <Link
-                    activeClass="active"
-                    to="techskills"
-                    spy={true}
-                    smooth={true}
-                    offset={-70}
-                    duration={500}
-                  >
-                    Skills
-                  </Link>
-                </NavLink>
-              </NavItem>
-              <NavItem>
-                <NavLink href="#workexperience">
-                  <Link
-                    activeClass="active"
-                    to="workexperience"
-                    spy={true}
-                    smooth={true}
-                    offset={-70}
-                    duration={500}
-                  >
-                    Work Experience
-                  </Link>
-                </NavLink>
-              </NavItem>
-              <NavItem>
-                <NavLink href="#projects">Projects</NavLink>
-              </NavItem>
-              <NavItem>
-                <NavLink href="#achievements">Achievements</NavLink>
-              </NavItem>
-              <NavItem>
-                <NavLink href="blogs">Blogs</NavLink>
-              </NavItem>
-              <NavItem>
-                <NavLink href="certificates">Certificates</NavLink>
-              </NavItem>
-              <NavItem>
-                <NavLink href="#contactme">Contact Me</NavLink>
-              </NavItem>
-            </Nav>
-          </Collapse>
-        </Navbar>
-      </Headroom>
-    </div>
-  );
-};
+    <Headroom>
+      <header className="header shadow">
+        <a href="" className="logo">
+          <span className="logo-name">&lt; Coolpinkzz /&gt;</span>
+        </a>
+        <input className="menu-btn" type="checkbox" id="menu-btn" />
+        <label className="menu-icon" htmlFor="menu-btn">
+          <span className="navicon"></span>
+        </label>
+        <ul className="menu">
+          <li>
+            <Link
+              activeClass="active"
+              to="techskills"
+              spy={true}
+              smooth={true}
+              offset={-70}
+              duration={500}
+            >
+              Skills
+            </Link>
+          </li>
 
+          <li>
+            <Link
+              activeClass="active"
+              to="workexperience"
+              spy={true}
+              smooth={true}
+              offset={-70}
+              duration={500}
+            >
+              Work Experience
+            </Link>
+          </li>
+
+          <li>
+            <Link
+              activeClass="active"
+              to="projects"
+              spy={true}
+              smooth={true}
+              offset={-70}
+              duration={500}
+            >
+              Projects
+            </Link>
+          </li>
+          <li>
+            <Link
+              activeClass="active"
+              to="achievements"
+              spy={true}
+              smooth={true}
+              offset={-70}
+              duration={500}
+            >
+              Achievements
+            </Link>
+          </li>
+
+          <li>
+            <Link
+              activeClass="active"
+              to="blogs"
+              spy={true}
+              smooth={true}
+              offset={-70}
+              duration={500}
+            >
+              Blogs
+            </Link>
+          </li>
+          <li>
+            <Link
+              activeClass="active"
+              to="certificates"
+              spy={true}
+              smooth={true}
+              offset={-70}
+              duration={500}
+            >
+              Certificates
+            </Link>
+          </li>
+          <li>
+            <Link
+              activeClass="active"
+              to="contactme"
+              spy={true}
+              smooth={true}
+              offset={-70}
+              duration={500}
+            >
+              Contact me
+            </Link>
+          </li>
+        </ul>
+      </header>
+    </Headroom>
+  );
+}
 export default Header;

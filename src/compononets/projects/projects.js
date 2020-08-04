@@ -60,7 +60,7 @@ class Project extends Component {
     });
     return (
       <div>
-        <h1>Projects</h1>
+        <h1 id="projects">Projects</h1>
         <Row>{projectcard}</Row>
       </div>
     );
