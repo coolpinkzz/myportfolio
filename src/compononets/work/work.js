@@ -23,7 +23,7 @@ const Work = () => {
           <div className="row">
             <div className="col-12 col-sm-6 col-md-6">
               <Card
-                style={{ backgroundColor: "rgb(108, 99, 255)" }}
+                style={{ backgroundColor: "rgb(108, 99, 255)", height: "auto" }}
                 className="shadow my-5"
               >
                 <CardBody>

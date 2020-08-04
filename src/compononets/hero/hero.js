@@ -78,8 +78,12 @@ const Hero = () => {
                   <a className="main-button" href="#contact">
                     Contact me
                   </a>
-                  <a className="main-button" href="" target="_blank">
-                    See my resume
+                  <a
+                    className="main-button"
+                    href="https://drive.google.com/file/d/1pcUx_bwePIca-DcNk0YoKpOy74pww3nw/view?usp=sharing"
+                    target="_blank"
+                  >
+                    Check my resume
                   </a>
                 </div>
               </div>

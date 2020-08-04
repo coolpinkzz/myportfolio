@@ -22,7 +22,7 @@ const Header = (props) => {
       <Headroom>
         <Navbar className="shadow" color="light" light expand="md">
           <NavbarBrand className="ml-5" href="/">
-            <h2> &lt; Coolpinkzz / &gt;</h2>
+            <h3> &lt; Coolpinkzz / &gt;</h3>
           </NavbarBrand>
           <NavbarToggler onClick={toggle} />
           <Collapse isOpen={isOpen} navbar>
