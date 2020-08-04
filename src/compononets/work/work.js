@@ -27,7 +27,7 @@ const Work = () => {
                   backgroundColor: "rgb(108, 99, 255)",
                   height: "350px",
                 }}
-                className="shadow my-5"
+                className=" card shadow my-5"
               >
                 <CardBody>
                   <CardTitle
@@ -75,7 +75,7 @@ const Work = () => {
                   height: "350px",
                   backgroundColor: "rgb(108, 99, 255)",
                 }}
-                className="shadow my-5"
+                className=" card shadow my-5"
               >
                 <CardBody>
                   <CardTitle
