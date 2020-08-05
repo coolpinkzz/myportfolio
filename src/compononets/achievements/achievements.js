@@ -55,7 +55,7 @@ class Achievement extends React.Component {
             Achievements and Certification &#x1f3c6;
           </h1>
         </Fade>
-        <Fade bottom duration={1000} distance="40px">
+        <Fade bottom duration={500} distance="10px">
           <Row>{achievement}</Row>
         </Fade>
       </div>

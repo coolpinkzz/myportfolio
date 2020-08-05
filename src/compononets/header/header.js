@@ -78,18 +78,7 @@ function Header() {
               Blogs
             </Link>
           </li>
-          <li>
-            <Link
-              activeClass="active"
-              to="certificates"
-              spy={true}
-              smooth={true}
-              offset={-70}
-              duration={500}
-            >
-              Certificates
-            </Link>
-          </li>
+
           <li>
             <Link
               activeClass="active"

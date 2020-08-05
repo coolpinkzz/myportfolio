@@ -1,0 +1,6 @@
+@media (max-width: 576px) {
+  .dp {
+    width: 50% !important;
+    margin: 20px;
+  }
+}

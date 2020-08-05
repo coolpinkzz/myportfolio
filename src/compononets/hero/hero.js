@@ -3,7 +3,7 @@ import "./hero.css";
 import { Jumbotron, Container } from "reactstrap";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import emoji from "react-easy-emoji";
-
+import { Link, animateScroll as scroll } from "react-scroll";
 import {
   faGithub,
   faLinkedin,
@@ -75,8 +75,17 @@ const Hero = () => {
                 </div>
 
                 <div className="row">
-                  <a className="main-button" href="#contact">
-                    Contact me
+                  <a className="main-button" href="/">
+                    <Link
+                      activeClass="active"
+                      to="contactme"
+                      spy={true}
+                      smooth={true}
+                      offset={-70}
+                      duration={500}
+                    >
+                      Contact Me
+                    </Link>
                   </a>
                   <a
                     className="main-button"
