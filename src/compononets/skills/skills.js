@@ -20,7 +20,7 @@ import { Fade } from "react-reveal";
 
 const Skills = () => {
   return (
-    <div>
+    <div style={{}}>
       <Container>
         <div className=" my-5 row">
           <Fade left duration={1000}>

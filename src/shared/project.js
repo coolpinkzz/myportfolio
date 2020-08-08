@@ -32,4 +32,12 @@ export const PROJECTS = [
     projectlink: "",
     githublink: "https://github.com/coolpinkzz/book-rental-webpage",
   },
+  {
+    id: "4",
+    name: "Beerista",
+    description:
+      "Developed a Search box Engine which will filter all the available data present in rest API ",
+    projectlink: "https://beerista.netlify.app/",
+    githublink: "https://github.com/coolpinkzz/Beerista",
+  },
 ];

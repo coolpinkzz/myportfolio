@@ -34,7 +34,7 @@ const Contact = () => {
               <span>&#128146;</span>
               <span>Bangalore, </span>
               <span>
-                <img style={{ width: "4%" }} src="/img/flag.png" />
+                <img style={{ width: "6.5%" }} src="/img/flag.png" />
               </span>
             </h5>
             <br></br>
