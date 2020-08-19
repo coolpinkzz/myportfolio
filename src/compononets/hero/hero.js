@@ -75,17 +75,8 @@ const Hero = () => {
                 </div>
 
                 <div className="row">
-                  <a className="main-button" href="/">
-                    <Link
-                      activeClass="active"
-                      to="contactme"
-                      spy={true}
-                      smooth={true}
-                      offset={-70}
-                      duration={500}
-                    >
-                      Contact Me
-                    </Link>
+                  <a className="main-button" href="tel:9632967897">
+                    Contact Me
                   </a>
                   <a
                     className="main-button"

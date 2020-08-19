@@ -18,6 +18,15 @@ export const ACHIEVEMENTS = [
     awardletter: "https://www.hackerrank.com/masterpratikyad1",
   },
   {
+    id: "7",
+    img: "img/problem-solving-gold.jpg",
+    name: "Gold Badge in Problem Solving",
+    Source: "Hacker Rank ",
+    des: "I have earned 861.12 points so far",
+    certification: "",
+    awardletter: "https://www.hackerrank.com/masterpratikyad1",
+  },
+  {
     id: "4",
     img: "img/google-analytics.png",
     name: "Advance Google Analytics",
