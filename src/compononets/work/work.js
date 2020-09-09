@@ -21,15 +21,65 @@ const Work = () => {
             Work Experience
           </h1>
           <div className="row">
-            <div className="col-12 col-sm-6 col-md-6">
+            <div className="col-12 col-sm-4 col-md-4">
               <Card
                 style={{
                   backgroundColor: "rgb(108, 99, 255)",
-                  height: "350px",
+                  height: "450px",
                 }}
                 className=" card shadow my-5"
               >
                 <CardBody>
+                  <CardTitle
+                    style={{
+                      color: "white",
+                      fontSize: "30px",
+                      fontWeight: "bold",
+                    }}
+                  >
+                    LANDRYT
+                  </CardTitle>
+                  <CardSubtitle
+                    style={{
+                      color: "white",
+                      fontSize: "20px",
+                      fontWeight: "400",
+                    }}
+                  >
+                    Front end Web Developer in React.js
+                  </CardSubtitle>
+                  <CardSubtitle style={{ color: "white" }}>
+                    August 20 - Present
+                  </CardSubtitle>
+                </CardBody>
+                <div className="text-center">
+                  <img
+                    height="auto"
+                    width="50%"
+                    src="/img/landryt.jpg"
+                    alt="Card image cap"
+                  />
+                </div>
+
+                <CardBody>
+                  <CardText style={{ color: "white" }}>
+                    Modifying current front-end design and also implemented
+                    Mixpanel Analytics. Working on Beta version, designing its
+                    front-end using React.js and styling using Fluent UI from
+                    scratch.
+                  </CardText>
+                </CardBody>
+              </Card>
+            </div>
+            <div className="col-12 col-sm-4 col-md-4">
+              <Card
+                style={{
+                  backgroundColor: "rgb(108, 99, 255)",
+                  height: "450px",
+                }}
+                className=" card shadow my-5"
+              >
+                <CardBody style={{ height: "8rem" }}>
                   <CardTitle
                     style={{
                       color: "white",
@@ -69,10 +119,10 @@ const Work = () => {
                 </CardBody>
               </Card>
             </div>
-            <div className="col-12 col-sm-6 col-md-6">
+            <div className="col-12 col-sm-4 col-md-4">
               <Card
                 style={{
-                  height: "350px",
+                  height: "450px",
                   backgroundColor: "rgb(108, 99, 255)",
                 }}
                 className=" card shadow my-5"
