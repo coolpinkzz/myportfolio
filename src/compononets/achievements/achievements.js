@@ -50,14 +50,10 @@ class Achievement extends React.Component {
     });
     return (
       <div>
-        <Fade bottom duration={1000} distance="40px">
-          <h1 className="my-5" id="achievements">
-            Achievements and Certification &#x1f3c6;
-          </h1>
-        </Fade>
-        <Fade bottom duration={500} distance="10px">
-          <Row>{achievement}</Row>
-        </Fade>
+        <h1 className="my-5" id="achievements">
+          Achievements and Certification &#x1f3c6;
+        </h1>
+        <Row>{achievement}</Row>
       </div>
     );
   }
